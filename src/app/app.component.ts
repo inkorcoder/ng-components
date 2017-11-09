@@ -1,8 +1,7 @@
 import { Component, enableProdMode } from '@angular/core';
+require('./variables.scss');
 
 enableProdMode()
-
-require('./variables.scss');
 
 @Component({
 	selector: 'application',

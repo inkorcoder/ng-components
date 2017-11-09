@@ -7,6 +7,8 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
+import { Carousel } from './components/carousel';
+
 
 
 @NgModule({
@@ -16,7 +18,8 @@ import { AppComponent } from './app.component';
 		FormsModule
 	],
 	declarations: [
-		AppComponent
+		AppComponent,
+		Carousel
 	],
 	bootstrap: [
 		AppComponent

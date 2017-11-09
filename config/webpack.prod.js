@@ -22,7 +22,7 @@ module.exports = webpackMerge(commonConfig, {
     // publicPath: path.join(__dirname, "../dist"),
     port: 1111,
     clientLogLevel: "none",
-    // host: "0.0.0.0",
+    host: "0.0.0.0",
     // hot: true,
     stats: {
       colors: true,
