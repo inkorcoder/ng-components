@@ -1,0 +1,47 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.__bs_notify__ {
+	display: none !important;
+}
+
+$font: 'Nunito Sans';
+$font2: 'roboto-condensed';
+
+$blue: #2bd3c6;
+$dark-blue: #102230;
+$cream: #f7ecaf;
+$water: #2bd3c6;
+$red: #da4625;
+$yellow: #ffc103;
+
+/* roboto */
+/*@font-face { font-family: 'roboto'; src: url(fonts/roboto/Roboto-Thin.ttf); font-weight: 100; }
+@font-face { font-family: 'roboto'; src: url(fonts/roboto/Roboto-Light.ttf); font-weight: 300; }
+@font-face { font-family: 'roboto'; src: url(fonts/roboto/Roboto-Regular.ttf); font-weight: 400; }
+@font-face { font-family: 'roboto'; src: url(fonts/roboto/Roboto-Medium.ttf); font-weight: 500; }
+@font-face { font-family: 'roboto'; src: url(fonts/roboto/Roboto-Bold.ttf); font-weight: 700; }
+@font-face { font-family: 'roboto'; src: url(fonts/roboto/Roboto-Black.ttf); font-weight: 900; }*/
+
+/* roboto condensed */
+@font-face { font-family: 'roboto-condensed'; src: url(fonts/roboto/RobotoCondensed-Light.ttf); font-weight: 300; }
+@font-face { font-family: 'roboto-condensed'; src: url(fonts/roboto/RobotoCondensed-Regular.ttf); font-weight: 400; }
+@font-face { font-family: 'roboto-condensed'; src: url(fonts/roboto/RobotoCondensed-Bold.ttf); font-weight: 700; }
+
+/* main */
+html, body,
+application {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(../img/image.png);
+}
+body {
+	font-family: $font;
+	background: #f0f0f0;
+	color: #333;
+	font-size: 14px;
+}
